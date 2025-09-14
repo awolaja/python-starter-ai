@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+
 def main():
     # Check if OpenAI API key is set
     api_key = os.environ.get("OPENAI_API_KEY")
@@ -29,7 +30,7 @@ def main():
 
         try:
             response = completion(
-                model="gpt-4o",  # Using GPT-4o as GPT-5 may not be available yet
+                model="gpt-5",
                 messages=[{"content": user_input, "role": "user"}],
                 stream=False
             )
