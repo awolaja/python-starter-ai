@@ -1,6 +1,6 @@
 # Python Starter with LiteLLM
 
-A minimal Python starter project for building AI applications with LiteLLM.
+A python starter project for building AI applications with LiteLLM.
 
 ## Quick Start
 
